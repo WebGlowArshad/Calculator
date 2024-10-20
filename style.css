@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: antiquewhite;
+}
+#cal-container{
+    border: 1px solid black;
+    width: 300px;
+    margin: 25px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(160, 172, 80);
+    box-shadow: 0 4px 10px  rgba(0, 0, 0, 2);;
+    padding-bottom: 30px;
+    margin-top: 15px;
+
+}
+.display{
+    width: 75%;
+    border-radius: 5px;
+    border: none;
+    height: 25px;
+    font-size: 20px;
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+
+}
+.btn-container{
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+
+}
+
+.button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    margin: 5px;
+    font-size: 25px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+
+}
+button:hover{
+    background-color: rgb(230, 204, 90);
+    /* box-shadow: 0 10px 10px rgba(1, 1, 1, .5); */
+}
+.Green-btn:hover{
+    background-color: rgb(48, 229, 20)
+}
+.Green-btn{
+    border-radius: 10px;
+    width: 200px;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
